@@ -1,0 +1,20 @@
+<div class="body">
+    <div class="registerform">
+        
+        <form class="form"  [formGroup]="register">
+            <mat-label>Register:</mat-label><br>
+          <mat-form-field appearance="legacy">
+            <mat-label>User Name</mat-label>
+            <input matInput placeholder="name" formControlName="name">
+          </mat-form-field><br>
+          <mat-form-field appearance="legacy">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Ex:abc@gmail.com" formControlName="email">
+          </mat-form-field>
+           <br>
+              <button mat-raised-button color="primary"[disabled]="register.invalid"(click)="onregister(register.value)" >Register</button>
+              <button mat-raised-button color="warn"(click)="loginon()">Login</button>
+        </form>
+    
+    </div>
+    </div>

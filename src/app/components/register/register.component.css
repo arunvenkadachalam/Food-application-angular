@@ -1,0 +1,41 @@
+mat-label
+{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+button:disabled
+{
+    cursor: not-allowed;
+}
+
+button
+{
+    margin-right:20px ;
+    cursor: pointer;
+}
+.body
+{
+    width: 100vw;
+    height:100vh;
+    background-image: url(https://images.unsplash.com/photo-1600274739081-e7e26300c88f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2013&q=80);
+    background-repeat: no-repeat;
+    background-image: fixed;
+    background-size: cover;
+}
+.registerform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+   
+}
+.form{
+    padding: 50px;
+    box-shadow: 2px;
+    box-shadow: 5px;
+    
+    
+
+}

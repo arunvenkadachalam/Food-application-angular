@@ -1,0 +1,20 @@
+<div class="body">
+<div class="loginform">
+  
+    <form class="form" [formGroup]="login">
+      <mat-label>Login:</mat-label><br>
+      <mat-form-field appearance="legacy">
+        <mat-label>User Name</mat-label>
+        <input matInput placeholder="name" formControlName="name">
+      </mat-form-field><br>
+      <mat-form-field appearance="legacy">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="Ex:abc@gmail.com" formControlName="email">
+      </mat-form-field>
+       <br>
+          <button mat-raised-button color="primary"[disabled]="login.invalid"(click)="loginsubmit(login.value)" >Login</button>
+          <button mat-raised-button color="warn"(click)="registeron()">Register</button>
+    </form>
+
+</div>
+</div>

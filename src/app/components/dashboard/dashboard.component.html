@@ -1,0 +1,17 @@
+<mat-toolbar color="primary">
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>Data base</span>
+    <span class="example-spacer"></span>
+    <button (click)="logout()" mat-raised-button color="warn">logout</button>
+    <button mat-raised-button style="background-color: rgb(122, 208, 231);" (click)="home()">Home</button>
+  </mat-toolbar><div  class="wrapper">
+<ul>
+    <li *ngFor="let item of userList" >{{item.id}}       {{item.name}} having email {{item.email}}
+    </li>
+</ul>
+</div>
+<div>
+    
+</div>

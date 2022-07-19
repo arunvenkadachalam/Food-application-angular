@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+ ul{
+  margin-top: 10px;
+ }
+    li{
+      border:1px solid black; 
+      list-style-type: none;
+      padding: 10px;
+    }
+  
